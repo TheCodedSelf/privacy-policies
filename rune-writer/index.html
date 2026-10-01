@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Rune Writer privacy policy: on-device conversion, local history, a keyboard without Full Access, and sharing you control.">
+  <meta name="referrer" content="no-referrer">
+  <title>Privacy Policy · Rune Writer</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f6f0e4;
+      --surface: #fffaf1;
+      --ink: #30271f;
+      --muted: #6b5e50;
+      --accent: #784a28;
+      --border: #ddcbb4;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { font-size: 100%; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.65;
+      overflow-wrap: anywhere;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .page {
+      width: min(100%, 48rem);
+      margin-inline: auto;
+      padding: clamp(1.25rem, 5vw, 3rem);
+    }
+
+    .brand {
+      margin: 0 0 2rem;
+      color: var(--accent);
+      font-weight: 650;
+      letter-spacing: 0.04em;
+    }
+
+    h1 {
+      margin: 0 0 0.75rem;
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: clamp(2.25rem, 7vw, 3.5rem);
+      line-height: 1.12;
+      letter-spacing: -0.035em;
+    }
+
+    h2 {
+      margin: 0 0 0.65rem;
+      color: var(--accent);
+      font-size: 1.1875rem;
+      line-height: 1.35;
+      font-weight: 650;
+    }
+
+    p { margin: 0 0 1rem; }
+    p:last-child { margin-bottom: 0; }
+
+    .updated { color: var(--muted); font-size: 0.9375rem; }
+    .promise { margin-top: 1.75rem; font-size: 1.375rem; font-weight: 600; }
+    .intro { color: var(--muted); }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.25rem 1.25rem;
+      margin: 1.75rem 0 2rem;
+      padding-block: 0.75rem;
+      border-block: 1px solid var(--border);
+      font-size: 0.9375rem;
+    }
+
+    nav a { display: inline-flex; align-items: center; min-height: 2.75rem; }
+
+    section {
+      margin-bottom: 1.25rem;
+      padding: clamp(1.25rem, 4vw, 1.75rem);
+      border: 1px solid var(--border);
+      border-radius: 1.25rem;
+      background: var(--surface);
+      scroll-margin-top: 1.5rem;
+    }
+
+    a { color: var(--accent); text-underline-offset: 0.2em; }
+    a:hover { text-decoration-thickness: 0.15em; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+
+    ul { margin: 0 0 1rem; padding-left: 1.25rem; }
+    li + li { margin-top: 0.75rem; }
+    ul:last-child { margin-bottom: 0; }
+
+    footer { margin-top: 2rem; color: var(--muted); font-size: 0.9375rem; }
+
+    .skip-link {
+      position: absolute;
+      left: 1rem;
+      top: -10rem;
+      padding: 0.75rem 1rem;
+      background: var(--surface);
+      z-index: 1;
+    }
+
+    .skip-link:focus { top: 1rem; }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #201c18;
+        --surface: #2b251f;
+        --ink: #f5ecdf;
+        --muted: #c7b9a7;
+        --accent: #e1b78e;
+        --border: #5a4837;
+      }
+    }
+
+    @media print {
+      :root {
+        --background: white;
+        --surface: white;
+        --ink: black;
+        --muted: #333;
+        --accent: black;
+        --border: #bbb;
+      }
+      body { font-size: 11pt; }
+      .page { width: 100%; padding: 0; }
+      nav, .skip-link { display: none; }
+      section { break-inside: avoid; }
+      h2 { break-after: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#policy">Skip to privacy policy</a>
+  <div class="page">
+    <header>
+      <p class="brand">Rune Writer</p>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: <time datetime="2026-10-01">1 October 2026</time></p>
+      <p class="promise">Your words stay yours.</p>
+      <p class="intro">Rune Writer is a small, private writing tool developed by Keegan Rush. This policy covers the Rune Writer iPhone app and Rune Writer Keyboard.</p>
+    </header>
+
+    <nav aria-label="Privacy policy sections">
+      <a href="#writing">Your writing</a>
+      <a href="#deletion">Retention &amp; deletion</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="policy">
+      <section id="writing" aria-labelledby="writing-title">
+        <h2 id="writing-title">Writing stays on your iPhone</h2>
+        <p>Text conversion happens on your device and works offline. Rune Writer does not upload your writing or send your text or keyboard input to the developer.</p>
+        <p>The app has no account, advertising, tracking, or third-party analytics. It does not collect personal information for transmission to the developer or operate a backend that stores your writing. Local data is used only to provide the app’s features, as described below.</p>
+      </section>
+
+      <section id="history" aria-labelledby="history-title">
+        <h2 id="history-title">History is yours to keep</h2>
+        <p>Copying a conversion, completing a share, or tapping Save adds that conversion to local history. A saved entry contains your source text, converted result, selected alphabet, and the date and time it was saved.</p>
+        <p>Rune Writer keeps up to 50 entries on your iPhone, with newer entries replacing the oldest when the limit is reached. History is saved for free users too; Rune Writer Pro lets you view, restore, and delete entries. The app does not save every keystroke or intermediate edit, sync history between devices, or share history with the keyboard.</p>
+      </section>
+
+      <section id="keyboard" aria-labelledby="keyboard-title">
+        <h2 id="keyboard-title">A keyboard without Full Access</h2>
+        <p>Rune Writer Keyboard does not require Full Access, make network requests, or collect, save, or log what you type. It inserts rune characters directly into the app you are using.</p>
+        <p>The keyboard remembers only its alphabet selection. It also reads a limited Pro access record shared locally by the Rune Writer app so premium alphabets can work offline. Your writing and keyboard input are never included in that record.</p>
+        <p>The app you type into receives the inserted text and handles it under its own privacy practices.</p>
+      </section>
+
+      <section id="sharing" aria-labelledby="sharing-title">
+        <h2 id="sharing-title">You choose what to share</h2>
+        <p>Copy, share, and image export happen when you choose them. Copy places the selected result on the system clipboard. Sharing sends the text or image to the apps or people you select using the iOS share sheet.</p>
+        <p>Exported images are saved to Photos only when you choose Save Image. An image can include your source text if you leave that option enabled. Rune Writer does not upload exported images to the developer.</p>
+        <p>Rune Writer does not share your writing with analytics providers, advertisers, or other service providers on the developer’s behalf. Content you choose to send to another app or person is handled by that recipient; review their privacy practices before sharing sensitive information.</p>
+      </section>
+
+      <section id="purchases" aria-labelledby="purchases-title">
+        <h2 id="purchases-title">Purchases go through Apple</h2>
+        <p>Rune Writer Pro is a one-time in-app purchase. Apple handles payment and purchase restoration. Rune Writer uses Apple’s StoreKit purchase information to verify and restore Pro access; the developer does not receive your payment card details through the app.</p>
+        <p>The app shares only the limited Pro access record with its keyboard on the same device. Your writing is never part of that information. Apple’s handling of purchase information is described in the <a href="https://www.apple.com/legal/privacy/en-ww/">Apple Privacy Policy</a>.</p>
+      </section>
+
+      <section id="deletion" aria-labelledby="deletion-title">
+        <h2 id="deletion-title">Retention, deletion, and your choices</h2>
+        <ul>
+          <li><strong>Saved history:</strong> Entries remain locally until you delete them, they are replaced by newer entries at the 50-entry limit, or you delete the app’s local data. With Pro, swipe an entry in History to delete it, or choose Clear All to remove saved history.</li>
+          <li><strong>Without Pro:</strong> You can remove local history by deleting Rune Writer from your iPhone. Choose Delete App rather than Offload App, which preserves app data. No purchase is required to delete the app’s local data.</li>
+          <li><strong>Keyboard:</strong> You can stop using the keyboard or remove it in iOS Settings under General → Keyboard → Keyboards. Full Access is not needed.</li>
+          <li><strong>Shared content:</strong> Delete exported images in Photos or wherever you saved them. Deleting history or the app does not delete content already copied, shared, or saved elsewhere.</li>
+        </ul>
+        <p>Rune Writer does not provide cloud sync, but your device’s backup settings may include local app data in an iCloud or computer backup. Copies in backups are managed separately through Apple’s backup controls. See <a href="https://support.apple.com/en-us/108922">Apple’s instructions for managing iCloud backups</a>.</p>
+        <p>The developer has no remote copy of your local history or keyboard input and cannot retrieve or delete it remotely. You can stop sharing at any time by declining to copy, share, or export content, and manage any system permissions in iOS Settings.</p>
+      </section>
+
+      <section id="website" aria-labelledby="website-title">
+        <h2 id="website-title">This privacy-policy website</h2>
+        <p>This page uses no analytics scripts, tracking pixels, cookies, forms, or external fonts. When hosted on GitHub Pages, GitHub logs visitors’ IP addresses for security purposes. This website hosting is separate from the app’s on-device text processing.</p>
+        <p>For GitHub’s handling and retention of website visitor information, see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a> and <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub Pages data collection disclosure</a>.</p>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact</h2>
+        <p>For privacy questions or requests, contact Keegan Rush at <a href="mailto:thecodedself+runewriter@gmail.com">thecodedself+runewriter@gmail.com</a>.</p>
+        <p>If you email the developer, your email address and any information you choose to include are used to respond to your request. Correspondence is retained only as long as needed to handle the request or meet applicable legal obligations. You can use the same address to request deletion of that correspondence. Please avoid sending sensitive writing or keyboard input.</p>
+      </section>
+
+      <section id="changes" aria-labelledby="changes-title">
+        <h2 id="changes-title">Changes to this policy</h2>
+        <p>If Rune Writer’s privacy practices change, this policy will be updated and the date above will reflect the latest revision.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Rune Writer · Keegan Rush</p>
+    </footer>
+  </div>
+</body>
+</html>
