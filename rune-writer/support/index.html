@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Contact Keegan Rush for Rune Writer support, bug reports, and feedback.">
+  <meta name="referrer" content="no-referrer">
+  <title>Support · Rune Writer</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --background: #f6f0e4;
+      --surface: #fffaf1;
+      --ink: #30271f;
+      --muted: #6b5e50;
+      --accent: #784a28;
+      --border: #ddcbb4;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.65;
+      overflow-wrap: anywhere;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    .page {
+      width: min(100%, 48rem);
+      margin-inline: auto;
+      padding: clamp(1.25rem, 5vw, 3rem);
+    }
+
+    h1 {
+      margin: 0 0 1rem;
+      font-size: clamp(2rem, 7vw, 3rem);
+      line-height: 1.2;
+      letter-spacing: -0.025em;
+    }
+
+    h2 { margin: 0 0 0.75rem; color: var(--accent); font-size: 1.25rem; }
+    p { margin: 0 0 1rem; }
+    p:last-child { margin-bottom: 0; }
+
+    section {
+      margin-top: 1.75rem;
+      padding: clamp(1.25rem, 4vw, 1.75rem);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 1.25rem;
+    }
+
+    a { color: var(--accent); text-underline-offset: 0.2em; }
+    a:hover { text-decoration-thickness: 0.15em; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+    .email { display: inline-block; padding-block: 0.5rem; min-height: 2.75rem; font-weight: 600; }
+    .note { color: var(--muted); }
+    footer { margin-top: 1.75rem; font-size: 0.9375rem; }
+    footer a { display: inline-block; min-height: 2.75rem; padding-block: 0.5rem; }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #201c18;
+        --surface: #2b251f;
+        --ink: #f5ecdf;
+        --muted: #c7b9a7;
+        --accent: #e1b78e;
+        --border: #5a4837;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1>Rune Writer Support</h1>
+      <p>For help with Rune Writer, to report a bug, or to suggest an improvement, please get in touch.</p>
+    </header>
+
+    <main>
+      <section aria-labelledby="contact-title">
+        <h2 id="contact-title">Contact Keegan Rush</h2>
+        <p><a class="email" href="mailto:thecodedself+runewriter@gmail.com">thecodedself+runewriter@gmail.com</a></p>
+        <p>For an issue, describe what happened and what you expected. Include your iPhone model and iOS version if relevant.</p>
+        <p class="note">Please avoid sending private writing or other sensitive information.</p>
+      </section>
+    </main>
+
+    <footer>
+      <a href="https://www.thecodedself.com/privacy-policies/rune-writer">Privacy Policy</a>
+    </footer>
+  </div>
+</body>
+</html>
